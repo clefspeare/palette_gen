@@ -801,12 +801,47 @@
 "x5":["432"],
 "yRect":["0"],
 
+"wRect-four":["135"],
+"x1-four":["0"],
+"x2-four":["135"],
+"x3-four":["270"],
+"x4-four":["405"],
 
+"wRect-six":["90"],
+"x1-six":["0"],
+"x2-six":["90"],
+"x3-six":["180"],
+"x4-six":["270"],
+"x5-six":["360"],
+"x6-six":["450"],
   
-"5colors": [" #name.capitalize#  \\#colorpalette \n #color1# #color2# #color3# #color4# #color5#   {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"540\" height=\"320\"><rect x=\"#x1#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x2#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x3#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect#\" height=\"#hRect#\"/><rect x=\"#x4#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x5#\" y=\"#yRect#\" style=\"fill:\\##color5#\" width=\"#wRect#\" height=\"#hRect#\" /></svg>}"],
-  
-  
-"origin": ["#[color1:#code#][color2:#code#][color3:#code#][color4:#code#][color5:#code#]5colors#"]
+"6colors": [" #name.capitalize# \n \\##color1# \\##color2# \\##color3# \\##color4# \\##color5#  \\##color6# {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"540\" height=\"320\"><rect x=\"#x1-six#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect-six#\" height=\"#hRect#\" /><rect x=\"#x2-six#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect-six#\" height=\"#hRect#\" /><rect x=\"#x3-six#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect-six#\" height=\"#hRect#\"/><rect x=\"#x4-six#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect-six#\" height=\"#hRect#\" /><rect x=\"#x5-six#\" y=\"#yRect#\" style=\"fill:\\##color5#\" width=\"#wRect-six#\" height=\"#hRect#\" /><rect x=\"#x6-six#\" y=\"#yRect#\" style=\"fill:\\##color6#\" width=\"#wRect-six#\" height=\"#hRect#\" /></svg>}"],  
+"5colors": [" #name.capitalize# \n \\##color1# \\##color2# \\##color3# \\##color4# \\##color5# {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"540\" height=\"320\"><rect x=\"#x1#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x2#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x3#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect#\" height=\"#hRect#\"/><rect x=\"#x4#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x5#\" y=\"#yRect#\" style=\"fill:\\##color5#\" width=\"#wRect#\" height=\"#hRect#\" /></svg>}"],
+"4colors":[" #name.capitalize# \n \\##color1# \\##color2# \\##color3# \\##color4# {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"540\" height=\"320\"><rect x=\"#x1-four#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect-four#\" height=\"#hRect#\" /><rect x=\"#x2-four#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect-four#\" height=\"#hRect#\" /><rect x=\"#x3-four#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect-four#\" height=\"#hRect#\"/><rect x=\"#x4-four#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect-four#\" height=\"#hRect#\" /></svg>}"],
+
+
+"6colors-origin":["#[color1:#code#][color2:#code#][color3:#code#][color4:#code#][color5:#code#][color6:#code#]6colors#"],
+"5colors-origin":["#[color1:#code#][color2:#code#][color3:#code#][color4:#code#][color5:#code#]5colors#"],
+"4colors-origin":["#[color1:#code#][color2:#code#][color3:#code#][color4:#code#]4colors#"],
+
+
+"origin":[
+	"#6colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#5colors-origin#",
+	"#4colors-origin#"]
 }
+
+
 
 
