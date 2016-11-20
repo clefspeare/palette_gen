@@ -792,32 +792,18 @@
 "pastelCode": ["#pastel##pastel##pastel##pastel##pastel##pastel#"],
 
 
-"borderColor":["ccb5c1"],
-"wBorder":["566"],
-"hBorder":["326"],
-"xBorder":["0"],
-"yBorder":["0"],
-
-
-"marginColor": ["ffffff"],
-"wMargin":["560"],
-"hMargin":["320"],
-"xMargin":["3"],
-"yMargin":["3"],
-
-
-"wRect":["100"],
-"hRect":["300"],
-"x1":["13"],
-"x2":["123"],
-"x3":["233"],
-"x4":["343"],
-"x5":["453"],
-"yRect":["13"],
+"wRect":["108"],
+"hRect":["320"],
+"x1":["0"],
+"x2":["108"],
+"x3":["216"],
+"x4":["324"],
+"x5":["432"],
+"yRect":["0"],
 
 
   
-"5colors": [" #name.capitalize#  \\#colorpalette \n #color1# #color2# #color3# #color4# #color5#   {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"566\" height=\"326\"><rect x=\"#xBorder#\" y=\"#yBorder#\" style=\"fill:\\##borderColor#\" width=\"#wBorder#\" height=\"#hBorder#\" /><rect x=\"#xMargin#\" y=\"#yMargin#\" style=\"fill:\\##marginColor#\" width=\"#wMargin#\" height=\"#hMargin#\" /><rect x=\"#x1#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x2#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x3#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect#\" height=\"#hRect#\"/><rect x=\"#x4#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x5#\" y=\"#yRect#\" style=\"fill:\\##color5#\" width=\"#wRect#\" height=\"#hRect#\" /></svg>}"],
+"5colors": [" #name.capitalize#  \\#colorpalette \n #color1# #color2# #color3# #color4# #color5#   {svg <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"540\" height=\"320\"><rect x=\"#x1#\" y=\"#yRect#\" style=\"fill:\\##color1#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x2#\" y=\"#yRect#\" style=\"fill:\\##color2#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x3#\" y=\"#yRect#\" style=\"fill:\\##color3#\" width=\"#wRect#\" height=\"#hRect#\"/><rect x=\"#x4#\" y=\"#yRect#\" style=\"fill:\\##color4#\" width=\"#wRect#\" height=\"#hRect#\" /><rect x=\"#x5#\" y=\"#yRect#\" style=\"fill:\\##color5#\" width=\"#wRect#\" height=\"#hRect#\" /></svg>}"],
   
   
 "origin": ["#[color1:#code#][color2:#code#][color3:#code#][color4:#code#][color5:#code#]5colors#"]
